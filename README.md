@@ -45,4 +45,4 @@ them. Also, we analyze the importance of features in our analysis.
 
 ##### Written By
 
-This project is submitted as the bachelor project of **Keivan Rezaei** to achieve his B.Sc. degree from Sharif UT. This work will also be submitted to Scientific Report, BMC oral health, or IEEE Journal of Biomedical and Health Informatics.
+This project is submitted as the bachelor project of **Keivan Rezaei** to achieve his B.Sc. degree from Sharif UT. This work will also be submitted to _Scientific Report, BMC oral health, or IEEE Journal of Biomedical and Health Informatics._
