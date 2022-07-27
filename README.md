@@ -21,6 +21,9 @@ Survival Analysis of Oral Cancer Patients
     + Random Survival Forest
     + Gradient Boosting Machine
     + Deep neural networks
+        + Deep Surv
+        + Logistic Hazard
+        + PC Hazard
     + Features' importance
 + Results
     + Models' comparision
