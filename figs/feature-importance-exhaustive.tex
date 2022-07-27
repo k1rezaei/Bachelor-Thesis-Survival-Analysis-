@@ -1,0 +1,45 @@
+\begin{latin}
+	\hspace*{-0.04\linewidth}
+	\begin{tikzpicture}[x={(30,0)}]
+	\footnotesize
+	\foreach  \l/\x/\c[count=\y] in {
+		\rl{کاهش وزن}/-0.022/inrect,
+		\rl{درگیری غدد لنفاوی}/-0.022/inrect,
+		\rl{محل درگیری اولیه}/0.011/inrect,
+		\rl{سطح هیستولوژیک}/-0.039/inrect,
+		\rl{سایز تومور}/0.011/inrect,
+		\rl{تعداد غدد لنفاوی درگیر}/-0.056/inrect,
+		\rl{جراحی شدن}/0.045/inrect,
+		\rl{پرتو‌درمانی}/-0.031/inrect,
+		\rl{شیمی‌درمانی}/0.053/inrect,
+		\rl{برداشت توده}/-0.006/inrect,
+		\rl{برداشت توده با برش گردن}/-0.022/inrect}
+	{\node[left] at (0,\y/2) {\l};
+		\draw[borderrect, very thick] (0.06,\y/2+.2) -- (0.06 + \x, \y/2+0.2);
+		\draw[borderrect, very thick] (0.06,\y/2-.2) -- (0.06 + \x, \y/2-0.2);
+		\draw[borderrect, very thick] (0.06 + \x,\y/2-.2) -- (0.06 + \x, \y/2+0.2);
+		\fill[\c] (0.06,\y/2-.2) rectangle (0.06 + \x,\y/2+.2);
+		\node[right] at (0.12, \y/2) {\x};}
+	\draw (0.06,0) -- (0.06,6);
+	\foreach  \l/\x/\c[count=\y] in {
+		\rl{وضعیت حاشیه}/0.003/inrect,
+		\rl{پیگیری منظم بیمار}/-0.022/inrect,
+		\rl{رخداد عود}/-0.014/inrect,
+		\rl{زمان عود}/0.095/inrect,
+		\rl{جراحی‌ عود}/-0.006/inrect,
+		\rl{پرتودرمانی عود}/-0.022/inrect,
+		\rl{شیمی‌درمانی  عود}/-0.022/inrect,
+		\rl{سن}/0.095/inrect,
+		\rl{متاستاز}/-0.014/inrect,
+		\rl{بدخیمی دوم}/-0.014/inrect}
+	{\node[left] at (0.27,\y/2) {\l};
+		\draw[borderrect, very thick] (.25 + 0.06,\y/2+.2) -- (.25 + 0.06 +\x, \y/2+0.2);
+		\draw[borderrect, very thick] (.25 + 0.06,\y/2-.2) -- (.25 + 0.06 +\x, \y/2-0.2);
+		\draw[borderrect, very thick] (.25 + 0.06 + \x,\y/2-.2) -- (.25 + 0.06 +\x, \y/2+0.2);
+		\fill[\c] (.25 + 0.06,\y/2-.2) rectangle (0.25 + 0.06 +\x,\y/2+.2);
+		\node[right] at (.25 + 0.16,  \y/2) {\x};	
+	}
+	\draw (0.25 + 0.06,0) -- (0.25 + 0.06,6);
+	\draw (0,0) -- (0.45,0);
+	\end{tikzpicture}
+\end{latin}

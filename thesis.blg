@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: chapters/intro.aux
+A level-1 auxiliary file: chapters/definitions.aux
+A level-1 auxiliary file: chapters/models_and_interpretation.aux
+A level-1 auxiliary file: chapters/results.aux
+A level-1 auxiliary file: chapters/conclusions.aux
+A level-1 auxiliary file: chapters/appendix.aux
+The style file: ./styles/packages/unsrtabbrv.bst
+Database file #1: bibs/full.bib
+Database file #2: bibs/refs.bib
+Repeated entry---line 93 of file bibs/refs.bib
+ : @article{r10
+ :             ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in r9
+Warning--empty journal in r8
+(There was 1 error message)

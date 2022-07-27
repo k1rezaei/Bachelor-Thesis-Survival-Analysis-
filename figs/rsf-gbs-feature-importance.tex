@@ -1,0 +1,75 @@
+\begin{latin}
+	\begin{subfigure}[t]{0.45\textwidth}
+	\begin{tikzpicture}[x={(80,0)}]
+	\tiny
+	\foreach  \l/\x/\c[count=\y] in {
+		\rl{کاهش وزن}/0.005/inrect,
+		\rl{درگیری غدد لنفاوی}/0.0/inrect,
+		\rl{محل اولیه‌ی درگیری}/0.018/inrect,
+		\rl{سطح هیستولوژیکال}/0.003/inrect,
+		\rl{سایز تومور}/0.019/inrect,
+		\rl{تعداد غدد لنفاوی درگیر}/0.02/inrect,
+		\rl{جراحی}/0.035/inrect,
+		\rl{پرتودرمانی}/0.013/inrect,
+		\rl{شیمی‌درمانی}/0.03/inrect,
+		\rl{برداشت توده}/0.003/inrect,
+		\rl{برداشت توده با برش گردن}/0.008/inrect,
+		\rl{وضعیت حاشیه}/0.006/inrect,
+		\rl{مراجعه‌ی منظم}/0.01/inrect,
+		\rl{رخداد عود}/0.027/inrect,
+		\rl{زمان عود}/0.063/inrect,
+		\rl{جراحی عود}/0.005/inrect,
+		\rl{پرتو‌درمانی عود}/0.006/inrect,
+		\rl{شیمی‌درمانی عود}/0.011/inrect,
+		\rl{سن}/0.024/inrect,
+		\rl{متاستاز}/0.007/inrect,
+		\rl{بدخیمی ثانویه}/0.004/inrect}
+	{\node[left] at (0,\y/4) {\l};
+		\draw[borderrect, very thick] (0,\y/4+.1) -- (\x, \y/4+0.1);
+		\draw[borderrect, very thick] (0,\y/4-.1) -- (\x, \y/4-0.1);
+		\draw[borderrect, very thick] (\x,\y/4-.1) -- (\x, \y/4+0.1);
+		\fill[\c] (0,\y/4-.1) rectangle (\x,\y/4+.1);
+		\node[right] at (\x, \y/4) {\x};}
+	\draw (0,0) -- (0,6);
+	\draw (0,0) -- (0.06,0);
+	\end{tikzpicture}
+	\caption{Random Survival Forest}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+	\begin{tikzpicture}[x={(20,0)}]
+	\tiny
+	\foreach  \l/\x/\c[count=\y] in {
+		\rl{کاهش وزن}/0.018/inrect,
+		\rl{درگیری غدد لنفاوی}/0.018/inrect,
+		\rl{محل اولیه‌ی دگیری}/0.053/inrect,
+		\rl{سطح هیستولوژیکال}/0.034/inrect,
+		\rl{سایز تومور}/0.145/inrect,
+		\rl{تعداد غدد لنفاوی درگیر}/0.066/inrect,
+		\rl{جراحی}/0.097/inrect,
+		\rl{پرتو‌درمانی}/0.103/inrect,
+		\rl{شیمی‌درمانی}/0.029/inrect,
+		\rl{برداشت توده}/0.001/inrect,
+		\rl{برداشت توده با برش گردن}/0.014/inrect,
+		\rl{وضعیت حاشیه}/0.023/inrect,
+		\rl{مراجعه‌ی منظم}/0.021/inrect,
+		\rl{رخداد عود}/0.04/inrect,
+		\rl{زمان عود}/0.142/inrect,
+		\rl{جراحی عود}/0.034/inrect,
+		\rl{پرتودرمانی عود}/0.011/inrect,
+		\rl{شیمی‌درمانی عود}/0.015/inrect,
+		\rl{سن}/0.135/inrect,
+		\rl{متاستاز}/0.001/inrect,
+		\rl{بدخیمی ثانویه}/0.0/inrect}
+		{\node[left] at (0,\y/4) {\l};
+		\draw[borderrect, very thick] (0,\y/4+.1) -- (\x, \y/4+0.1);
+		\draw[borderrect, very thick] (0,\y/4-.1) -- (\x, \y/4-0.1);
+		\draw[borderrect, very thick] (\x,\y/4-.1) -- (\x, \y/4+0.1);
+		\fill[\c] (0,\y/4-.1) rectangle (\x,\y/4+.1);
+		\node[right] at (\x, \y/4) {\x};}
+	\draw (0,0) -- (0,6);
+	\draw (0,0) -- (0.22,0);
+	\end{tikzpicture}
+	\caption{Gradient Boosting Machine}
+	\end{subfigure}
+\end{latin}

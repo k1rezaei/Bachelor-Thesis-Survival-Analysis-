@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{r4}
+L.~Vale-Silva and K.~Rohr.
+\newblock Long-term cancer survival prediction using multimodal deep learning.
+\newblock {\em Scientific Reports}, 11(1), 2021.
+
+\bibitem{r1}
+H.~Sung, J.~Ferlay, R.~L. Siegel, M.~Laversanne, I.~Soerjomataram, A.~Jemal,
+  and F.~Bray.
+\newblock Global cancer statistics 2020: Globocan estimates of incidence and
+  mortality worldwide for 36 cancers in 185 countries.
+\newblock {\em CA}, 71(3):209--249, 2021.
+
+\bibitem{r2}
+S.~Warnakulasuriya.
+\newblock Global epidemiology of oral and oropharyngeal cancer.
+\newblock {\em Oral Oncol}, 45(4-5):309--16, 2009.
+
+\bibitem{r3}
+D.~Kim, S.~Lee, S.~Kwon, W.~Nam, I.~Cha, and H.~Kim.
+\newblock Deep learning-based survival prediction of oral cancer patients.
+\newblock {\em Scientific Reports}, 9(1), 2019.
+
+\bibitem{r9}
+R.~Sonabend.
+\newblock A theoretical and methodological framework for machine learning in
+  survival analysis.
+\newblock 2021.
+
+\bibitem{r11}
+I.~Bou-Hamad, D.~Larocque, and H.~Ben-Ameur.
+\newblock A review of survival trees.
+\newblock {\em Statistical Surveys}, 5:44--71, 2011.
+
+\bibitem{r7}
+J.~L. Katzman, U.~Shaham, A.~Cloninger, J.~Bates, T.~Jiang, and Y.~Kluger.
+\newblock Deepsurv: personalized treatment recommender system using a cox
+  proportional hazards deep neural network.
+\newblock {\em BMC Medical Research Methodology}, 18, 2018.
+
+\bibitem{r6}
+J.~Wang, N.~Chen, J.~Guo, X.~Xu, L.~Liu, and Z.~Yi.
+\newblock Survnet: A novel deep neural network for lung cancer survival
+  analysis with missing values.
+\newblock {\em Front Oncol}, 10, 2021.
+
+\bibitem{r12}
+A.~Spooner and E.~Chen.
+\newblock A comparison of machine learning methods for survival analysis of
+  high-dimensional clinical data for dementia prediction.
+\newblock {\em Scientific Reports}, 10, 2020.
+
+\bibitem{r13}
+E.~Giunchiglia, A.~Nemchenko, and M.~van~der Schaar.
+\newblock Rnn-surv: A deep recurrent model for survival analysis.
+\newblock {\em ICANN}, 2018.
+
+\bibitem{r14}
+H.~Kvamme, B.~Ornulf, and I.~Scheel.
+\newblock Time-to-event prediction with neural networks and cox regression.
+\newblock {\em Journal of Machine Learning Research}, 20:1--30, 2019.
+
+\bibitem{r15}
+Q.~Zhong, J.~W. Mueller, and J.-L. Wang.
+\newblock Deep extended hazard models for survival analysis.
+\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.~Liang, and J.~W.
+  Vaughan, editors, {\em Advances in Neural Information Processing Systems},
+  volume~34, pages 15111--15124. Curran Associates, Inc., 2021.
+
+\bibitem{r10}
+H.~Li, P.~Boimel, J.~J. Naylor, H.~Zhong, Y.~Xiao, E.~Ben-Josef, and Y.~Fan.
+\newblock Deep convolutional neural networks for imaging data-based survival
+  analysis of rectal cancer.
+\newblock {\em Proc IEEE Int Symp Biomed Imaging}, pages 846--849, 2019.
+
+\bibitem{r17}
+Wang, Ping, and Y.~Li.
+\newblock Machine learning for survival analysis: A survey.
+\newblock {\em ACM Comput. Surv.}, 51(6), feb 2019.
+
+\bibitem{r8}
+H.~Kvamme and B.~Ornulf.
+\newblock Continuous and discrete-time survival prediction with neural
+  networks.
+\newblock 2019.
+
+\end{thebibliography}
