@@ -31,7 +31,7 @@ Survival Analysis of Oral Cancer Patients
 + Conclusion
 + Appendix
     + Models' Hyperparameters
-    + $`C_{index}`$ distribution in exhaustive and semi-exhaustive search
+    + $C_{index}$ distribution in exhaustive and semi-exhaustive search
 
 <br>
 
